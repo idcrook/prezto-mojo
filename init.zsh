@@ -9,7 +9,7 @@
 if [[ -d "$HOME/.modular" ]]; then
     export MODULAR_HOME="$HOME/.modular"
     #export PATH="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin:$PATH"
-    path+="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin"
+    #path+="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin"
 else
     echo 'Cannot find MODULAR_HOME in default location. See https://docs.modular.com/mojo/manual/get-started/ '
     return 1
